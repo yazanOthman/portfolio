@@ -11,9 +11,9 @@ const Contact = () => {
     e.preventDefault();
 
     const credentials = {
-      service_id: "service_65xaz7s",
-      template_id: "template_wzxempa",
-      user_id: "zU_OGA5dZCKx-aaoE",
+      service_id: process.env.REACT_APP_SERVICE_ID,
+      template_id: process.env.REACT_APP_TEMPLATE_ID,
+      user_id: process.env.REACT_APP_PUBLIC_KEY,
     };
 
     const payload = {
