@@ -3,9 +3,10 @@ import data from "../data";
 import { FaAngleDoubleRight } from "react-icons/fa";
 
 const Experience = () => {
-  const [value, setValue] = useState(1);
+  const [value, setValue] = useState(0);
 
   const { company, duties, dates, title } = data[value];
+
   return (
     <section className="section" id="experience">
       <div className="container">
